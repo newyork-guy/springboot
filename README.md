@@ -1,5 +1,5 @@
 # report
-NXP/CLO-SET Backend Dev 과제
+NXP/CLO-SET
 
 # 구성요소
 - Java 17 jdk
