@@ -12,7 +12,7 @@ NXP/CLO-SET Backend Dev 과제
 
 2. jar 파일을 실행 합니다.
   - Root 폴더로 이동 후 report.jar 파일을 아래와 같이 실행 합니다.
-  - "java -jar report.jar"
+  - "java -jar report-0.0.1-SNAPSHOT.jar"
 
 3. 포트는 8080으로 셋팅하였습니다.
   - 크롬 또는 익스플로어를 띄우신 후 localhost:8080/api/employee 하시면 확인이 가능합니다.
