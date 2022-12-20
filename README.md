@@ -2,7 +2,7 @@
 NXP/CLO-SET Backend Dev 과제
 
 # 구성요소
-- Java 17 SDK
+- Java 17 SDK (https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 - Springboot 2.7.6
 - json-simple 1.1.1
 - opencsv 4.6
@@ -12,8 +12,8 @@ NXP/CLO-SET Backend Dev 과제
 
 # 실행방법
 
-1. h2 DB 설치를 합니다.
-  - 클론 받은 후 h2/bin 폴더로 이동 후 h2.sh를 실행합니다.
+1. h2 DB를 설치를 합니다.
+  - 다운로드: http://www.h2database.com/html/download.html
   - 데이터베이스 -> "jdbc:h2:tcp://localhost/~/clo" 를 생성합니다.
 ![image](https://user-images.githubusercontent.com/52402303/208550048-e6ecc744-6659-47c7-b777-4632450e6b64.png)
 ![image](https://user-images.githubusercontent.com/52402303/208554734-6d85600d-cf1d-4f88-b3bd-0efc302614bd.png)
