@@ -1,6 +1,15 @@
 # report
 NXP/CLO-SET Backend Dev 과제
 
+# 구성요소
+- Java 17 SDK
+- Springboot 2.7.6
+- json-simple 1.1.1
+- opencsv 4.6
+- jackson 2.11.3
+- lombok
+- h2 database
+
 # 실행방법
 
 1. h2 DB 설치를 합니다.
@@ -16,5 +25,3 @@ NXP/CLO-SET Backend Dev 과제
 
 3. 포트는 8080으로 셋팅하였습니다.
   - 크롬 또는 익스플로어를 띄우신 후 localhost:8080/api/employee 하시면 확인이 가능합니다.
-
-
