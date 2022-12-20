@@ -14,3 +14,7 @@ spring:
 
 logging.level:
   org.hibernate.SQL: debug
+
+path:
+  csv: "/Users/seongwook/IdeaProjects/report/employee.csv"
+  json: "/Users/seongwook/IdeaProjects/report/employee.json"

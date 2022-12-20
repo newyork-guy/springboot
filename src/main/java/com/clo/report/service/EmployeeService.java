@@ -8,6 +8,7 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -15,11 +16,15 @@ import java.io.*;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
+
 @Service
 public class EmployeeService {
 
-    String csvPath = "/Users/seongwook/IdeaProjects/report/employee.csv";
-    String jsonPath = "/Users/seongwook/IdeaProjects/report/employee.json";
+    @Value("${path.csv}")
+    String csvPath;
+
+    @Value("${path.json}")
+    String jsonPath;
 
     @Autowired
     EmployeeRepository employeeRepository;
