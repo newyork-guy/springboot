@@ -18,8 +18,6 @@ NXP/CLO-SET
   - 다운로드: http://www.h2database.com/html/download.html
   - 데이터베이스 -> "jdbc:h2:tcp://localhost/~/clo" 를 생성합니다.
   - url에서 해당pc ip를 localhost로 바꾸어 줍니다.
-![image](https://user-images.githubusercontent.com/52402303/208550048-e6ecc744-6659-47c7-b777-4632450e6b64.png)
-![image](https://user-images.githubusercontent.com/52402303/208554734-6d85600d-cf1d-4f88-b3bd-0efc302614bd.png)
 
 3. 빌드를 합니다.
   - 빌드 전 csv파일과 json파일의 경로를 바꿔줍니다.
