@@ -1,5 +1,5 @@
-# report
-NXP/CLO-SET
+# Boiler Project
+SpringBoot, H2
 
 # 구성요소
 - Java 17 jdk
